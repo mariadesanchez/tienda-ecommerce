@@ -1,0 +1,3 @@
+ERROR   2023-04-06 08:41:35,225 [http-nio-8080-exec-1] com.dh.clinica.GlobalExceptionHandler  - Cannot invoke "com.dh.clinica.entity.Odontologo.getId()" because "odontologo" is null
+ERROR   2023-04-06 08:41:41,489 [http-nio-8080-exec-4] com.dh.clinica.GlobalExceptionHandler  - Request method 'POST' not supported
+ERROR   2023-04-06 08:41:49,315 [http-nio-8080-exec-6] com.dh.clinica.GlobalExceptionHandler  - Request method 'POST' not supported

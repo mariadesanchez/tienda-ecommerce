@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="icon" type="image/x-icon" href="./assets/DH_Logo_Black.png">
+    <meta name="description" content="Digital House CTD | Proyecto integrador | FRONTEND II"/>
+
+
+    <!-- ---------------- estilos compartidos de login y signup ---------------- -->
+    <link rel="stylesheet" href="./css/loginSignupStyles.css">
+
+
+    <!-- ---------------------- logica aplicada en register -------------------- -->
+    <!--    <script src="./scripts/utils.js"></script>-->
+
+
+</head>
+
+<body>
+<header class="container">
+    <nav>
+        <h1>Odonto App | <span>Backend</span></h1>
+        <img src="./assets/DigitalHouse_Logo_White.png" alt="logo DH">
+    </nav>
+</header>
+
+<div class="container">
+    <form id = "put_odontologo">
+        <div class="form-header">
+            <h2>Actualizar Odontólogo</h2>
+<!--            <div id = "response" style="display:none"><p class="rounded">Odontólogo Registrado</p>-->
+<!--                <div id = "response-danger" style="display:none"><p class="rounded">Algo Salió mal, intente nuevamente</p>-->
+<!--                </div>-->
+            </div>
+            <label>Nombre</label>
+            <input id="inputNombre" required type="text">
+
+            <label>Apellido</label>
+            <input id="inputApellido" required type="text">
+
+            <label>Matrícula</label>
+            <input id="inputMatricula" required type="text">
+
+
+
+            <button type="submit">Registrar</button>
+    </form>
+
+    <!--   <div class="ingresarA">-->
+    <!--       <a href="index.html">¿Ya tienes una cuenta? Ingrese aquí</a>&ndash;&gt;-->
+    <!--  </div>-->
+</div>
+<script src="./scripts/actualizarOdontologo.js"></script>
+</body>
+
+</html>

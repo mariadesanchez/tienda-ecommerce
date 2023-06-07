@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="icon" type="image/x-icon" href="./assets/DH_Logo_Black.png">
+    <meta name="description" content="Digital House CTD | Proyecto integrador | FRONTEND II"/>
+
+
+    <!-- ---------------- estilos compartidos de login y signup ---------------- -->
+    <link rel="stylesheet" href="./css/loginSignupStyles.css">
+<!--    <link rel="stylesheet" href="styles.css" />-->
+
+    <!-- ---------------------- logica aplicada en register -------------------- -->
+    <!--    <script src="./scripts/utils.js"></script>-->
+
+
+</head>
+
+<body>
+<header class="container">
+    <nav>
+        <h1>Odonto App | <span>Backend</span></h1>
+        <img src="./assets/DigitalHouse_Logo_White.png" alt="logo DH">
+    </nav>
+</header>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<div class="container">
+<!--    <form id = "list_odontologo">-->
+
+        <div class="form-header">
+            <h2>Listado De Odontólogo</h2>
+
+        </div>
+        <div id="card">
+            <table id ="getAll_odontologos">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Matricula</th>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+<!--</form>-->
+    <button >Nueva Busqueda</button>
+</div>
+<script src="./scripts/listarOdontologos.js"></script>
+</body>
+
+</html>

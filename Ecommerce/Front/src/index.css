@@ -1,0 +1,18 @@
+/* index.css */
+
+
+/* Importa los estilos de Tailwind CSS base */
+
+@import 'tailwindcss/base';
+
+/* Importa los estilos de Tailwind CSS de los componentes */
+
+@import 'tailwindcss/components';
+
+/* Importa los estilos de Tailwind CSS de las utilidades */
+
+@import 'tailwindcss/utilities';
+
+/* Resto de tu CSS personalizado o reglas CSS adicionales si es necesario */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
